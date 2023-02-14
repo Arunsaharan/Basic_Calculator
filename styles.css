@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.top-heading{
+  text-align: center;
+}
+
+.empty-space{
+  height: 3rem;
+}
+
+.outer-wrap{
+  width: 100%;
+  text-align: center;
+}
+.input-display{
+  width: 19rem;
+  height: 3rem;
+  font-size: 2rem;
+  border: 4px solid black;
+}
+
+.button{
+width: 4rem;
+height: 3rem;
+}
+.button-lg{
+  width: 9rem;
+}
+
+.row{
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+}
