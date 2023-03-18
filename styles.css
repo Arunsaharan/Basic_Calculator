@@ -8,7 +8,20 @@ body {
   background: linear-gradient(135deg, #4158D0 0%, #C850C0 53%, #FFCC70 100%);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 300% 150%;
+  animation: motion 7.5s linear infinite ;
+}
+
+@keyframes motion{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
 }
 
 .top-heading {
